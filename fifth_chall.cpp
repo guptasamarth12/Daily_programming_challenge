@@ -15,6 +15,7 @@ void ladder(vector<int> arr){
             ans.push_back(arr[i]);
         }
     }
+    
 
     for(int i=ans.size()-1;i>=0;i--){
         cout<<ans[i]<<" ";
